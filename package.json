@@ -1,8 +1,8 @@
 {
   "name": "colors-convert",
+  "type": "module",
   "version": "0.0.0",
   "license": "MIT",
-  "type": "module",
   "author": "Elone Hoo <huchengyea@163.com>",
   "repository": {
     "type": "git",
