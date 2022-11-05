@@ -56,5 +56,6 @@ describe('basic',()=>{
     expect(convert.rgb.hsl([140, 200, 100])).toEqual([96, 48, 59])
     expect(convert.rgb.hsv([140, 200, 100])).toEqual([96, 50, 78])
     expect(convert.rgb.hwb([140, 200, 100])).toEqual([96, 39, 22])
+    expect(convert.rgb.cmyk([140, 200, 100])).toEqual([30, 0, 50, 22])
   })
 })
