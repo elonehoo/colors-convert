@@ -39,7 +39,7 @@
     "@vitest/coverage-c8": "^0.24.5",
     "bumpp": "8.2.1",
     "c8": "^7.12.0",
-    "eslint": "8.26.0",
+    "eslint": "8.27.0",
     "pnpm": "7.14.2",
     "typescript": "4.8.4",
     "vite": "3.2.2",
