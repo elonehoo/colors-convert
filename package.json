@@ -42,6 +42,6 @@
     "vitest": "0.33.0"
   },
   "dependencies": {
-    "unbuild": "^1.2.1"
+    "unbuild": "^2.0.0"
   }
 }
