@@ -18,6 +18,7 @@ describe('color name', () => {
   it('for keys cssKeywords', () => {
     for (const key of Object.keys(cssKeywords))
       // eslint-disable-next-line no-console
+      //@ts-ignore
       console.log(cssKeywords[key])
   })
 })
