@@ -9,7 +9,7 @@ import conversions from './conversions'
  * conversions that are not possible simply are not included.
  */
 function buildGraph() {
-  const graph:any = {}
+  const graph: any = {}
   // https://jsperf.com/object-keys-vs-for-in-with-closure/3
   const models = Object.keys(conversions)
 

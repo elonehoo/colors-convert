@@ -4,7 +4,7 @@ import route from './route'
 const convert: any = {}
 const models = Object.keys(conversions)
 
-function wrapRaw(fn: Function) {
+function wrapRaw(fn: any) {
   const wrappedFn = function (...args: any) {
     const arg0 = args[0]
     if (arg0 === undefined || arg0 === null)
@@ -23,7 +23,7 @@ function wrapRaw(fn: Function) {
   return wrappedFn
 }
 
-function wrapRounded(fn: Function) {
+function wrapRounded(fn: any) {
   const wrappedFn = function (...args: any) {
     const arg0 = args[0]
 

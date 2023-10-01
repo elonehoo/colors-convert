@@ -1,4 +1,4 @@
-import colors from './color-name'
+import type colors from './color-name'
 
 export type RGB = [number, number, number]
 export type HSL = [number, number, number]
@@ -16,9 +16,9 @@ export type HCG = [number, number, number]
 export type APPLE = [number, number, number]
 export type GRAY = [number]
 
-export type COLORS ={
-  aliceblue: RGB,
-  antiquewhite:RGB,
+export interface COLORS {
+  aliceblue: RGB
+  antiquewhite: RGB
   aqua: RGB
   aquamarine: RGB
   azure: RGB

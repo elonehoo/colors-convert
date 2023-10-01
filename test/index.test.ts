@@ -1,3 +1,4 @@
+import process from 'node:process'
 import { describe, expect, it } from 'vitest'
 import cssKeywords from '../src/color-name'
 import convert from '../src/index'
@@ -16,21 +17,20 @@ describe('color name', () => {
 
   it('for keys cssKeywords', () => {
     for (const key of Object.keys(cssKeywords))
+      // eslint-disable-next-line no-console
       console.log(cssKeywords[key])
   })
 })
 
-
-describe('ansi color grid',()=>{
-  it('main',()=>{
-    process.stdout.write('\n');
+describe('ansi color grid', () => {
+  it('main', () => {
+    process.stdout.write('\n')
 
     for (let i = 0; i < 256; i++) {
-      if (i > 0 && (i % 8) === 0) {
-        process.stdout.write('\n');
-      }
+      if (i > 0 && (i % 8) === 0)
+        process.stdout.write('\n')
 
-      const code16 = convert.ansi256.ansi16(i);
+      const code16 = convert.ansi256.ansi16(i)
 
       process.stdout.write(
         `  [${
@@ -43,20 +43,19 @@ describe('ansi color grid',()=>{
           code16
         }${
           '  '.substr(Math.max(0, Math.floor(Math.log10(code16))))
-        }]`
-      );
+        }]`,
+      )
     }
 
-    process.stdout.write('\n\n');
+    process.stdout.write('\n\n')
   })
 })
 
-describe('basic',()=>{
-  it('basic',()=>{
+describe('basic', () => {
+  it('basic', () => {
     expect(convert.rgb.hsl([140, 200, 100])).toEqual([96, 48, 59])
     expect(convert.rgb.hsv([140, 200, 100])).toEqual([96, 50, 78])
     expect(convert.rgb.hwb([140, 200, 100])).toEqual([96, 39, 22])
     expect(convert.rgb.cmyk([140, 200, 100])).toEqual([30, 0, 50, 22])
-
   })
 })
