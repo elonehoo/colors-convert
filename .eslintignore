@@ -1,3 +1,4 @@
 dist
 public
 src/conversions.ts
+coverage
