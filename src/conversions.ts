@@ -366,7 +366,7 @@ convert.hwb.rgb = function (hwb: RGB): RGB {
   let r
   let g
   let b
-   
+
   switch (i) {
     default:
     case 6:
@@ -695,7 +695,7 @@ convert.hcg.rgb = function (hcg: HCG): RGB {
   const w = 1 - v
   let mg = 0
 
-   
+
   switch (Math.floor(hi)) {
     case 0:
       pure[0] = 1; pure[1] = v; pure[2] = 0; break
@@ -710,7 +710,7 @@ convert.hcg.rgb = function (hcg: HCG): RGB {
     default:
       pure[0] = 1; pure[1] = 0; pure[2] = w
   }
-   
+
 
   mg = (1.0 - c) * g
 
