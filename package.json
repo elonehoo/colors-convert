@@ -37,7 +37,7 @@
     "@elonehoo/vite-plugin-type-ts": "0.0.3-beta.0",
     "@types/node": "24.10.13",
     "@vitest/coverage-v8": "^4.0.18",
-    "bumpp": "11.0.0",
+    "bumpp": "12.3.0",
     "c8": "^11.0.0",
     "eslint": "10.0.1",
     "pnpm": "10.30.1",
