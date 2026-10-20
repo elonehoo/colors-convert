@@ -1,0 +1,5 @@
+# esbuild uses its platform-specific optional package without postinstall.
+# Keep unreviewed dependency builds blocked, including future esbuild versions.
+strictDepBuilds: true
+allowBuilds:
+  esbuild@0.25.9 || 0.27.2: false
