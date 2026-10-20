@@ -14,13 +14,13 @@ const cmykChannels = convert.cmyk.channels // 4
 const ansiChannels = convert.ansi16.channels // 1
 ```
 
-# Install
+## Install
 
 ```console
 $ npm install '@elonehoo/colors-converts
 ```
 
-# API
+## API
 
 Simply get the property of the _from_ and _to_ conversion that you're looking for.
 
@@ -119,10 +119,10 @@ channel | full-scale value
 ---|---
 g | 100
 
-# Contribute
+## Contribute
 
 If there is a new model you would like to support, or want to add a direct conversion between two existing models, please send us a pull request.
 
-# License
+## License
 
 [MIT License](./LICENSE) © 2022-PRESENT [Elone Hoo](https://github.com/elonehoo)
