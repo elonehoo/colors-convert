@@ -2,7 +2,7 @@
   "name": "@elonehoo/colors-convert",
   "type": "module",
   "version": "0.0.8",
-  "packageManager": "pnpm@12.14.0",
+  "packageManager": "pnpm@12.15.0",
   "author": "Elone Hoo <hi@elonehoo.me>",
   "license": "MIT",
   "exports": {
@@ -42,9 +42,9 @@
     "bumpp": "12.3.0",
     "c8": "^12.0.0",
     "eslint": "10.13.0",
-    "pnpm": "12.14.0",
+    "pnpm": "12.15.0",
     "typescript": "npm:@typescript/typescript6@6.0.2",
-    "vite": "8.3.4",
+    "vite": "8.3.5",
     "vitest": "4.1.12"
   }
 }
