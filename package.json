@@ -2,7 +2,7 @@
   "name": "@elonehoo/colors-convert",
   "type": "module",
   "version": "0.0.8",
-  "packageManager": "pnpm@12.16.1",
+  "packageManager": "pnpm@12.18.0",
   "author": "Elone Hoo <hi@elonehoo.me>",
   "license": "MIT",
   "exports": {
@@ -38,13 +38,13 @@
     "@elonehoo/vite-plugin-type-ts": "0.0.3-beta.0",
     "@types/node": "26.6.6",
     "@typescript/native": "npm:typescript@7.0.2",
-    "@vitest/coverage-v8": "^5.0.5",
+    "@vitest/coverage-v8": "^5.1.0",
     "bumpp": "12.3.0",
     "c8": "^12.0.0",
     "eslint": "10.14.0",
-    "pnpm": "12.16.1",
+    "pnpm": "12.18.0",
     "typescript": "npm:@typescript/typescript6@6.0.2",
-    "vite": "8.3.5",
-    "vitest": "5.0.5"
+    "vite": "8.3.6",
+    "vitest": "5.1.0"
   }
 }
